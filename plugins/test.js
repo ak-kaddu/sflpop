@@ -59,7 +59,7 @@ r_text[0] = "😇 *You are a honest person, you have many responsibilities* 😇
 r_text[1] = "👿 *you are a lier, go to hell* 😠";
 var i = Math.floor(2*Math.random())
 
-await message.sendMessage(`According To My Calculations🧐\nYou Are Now ${r_text[i]}`);
+await message.sendMessage(`According To My Calculations🧐\ ${r_text[i]}`);
 
 
 }));
